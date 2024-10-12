@@ -1,23 +1,22 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# production
-/build
-
-# misc
+# Ignore macOS system files
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Ignore system and hidden files
+*.log
+*.pem
+*.key
+.idea/
+.vscode/
+node_modules/
+
+# Ignore desktop and other personal directories
+../../Desktop/
+../../Documents/
+../../Downloads/
+../../Library/
+../.DS_Store
+../.localized
+
+# Ignore other common system directories
+*.pdf
+*.ipynb
